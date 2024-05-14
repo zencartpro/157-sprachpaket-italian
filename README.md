@@ -8,7 +8,7 @@ Freigegebene getestete Versionen für den Einsatz in Livesystemen ausschließlic
 * utf-8
 * Frontend von native speaker/Deepl übersetzt 
 
-* Dieses Sprachpaket stellt eine kitalienische Übersetzung (Übersetzunggrad 95%) für das Frontend der Grundversion bereit. 
+* Dieses Sprachpaket stellt eine italienische Übersetzung (Übersetzunggrad 95%) für das Frontend der Grundversion bereit. 
 * Die Sprachdefinitionen sind vollständig für die deutsche Zen Cart Version 1.5.7h angepasst, so dass es auch mit PHP 8.2 keine Probleme geben sollte. 
 * Dieses Sprachpaket geht davon aus, dass im Shop CSS Buttons verwendet werden und liefert keine italienischen Grafikbuttons mit. 
 
