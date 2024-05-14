@@ -1,4 +1,13 @@
 <?php
+/**
+ * Zen Cart German Specific (158 code in 157)
+ 
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: login.php 2023-10-29 09:49:16Z webchills $
+ */
 define('NAVBAR_TITLE', 'Login');
 define('HEADING_TITLE', 'Benvenuto, accedi con la tua identit&agrave;');
 
@@ -12,12 +21,10 @@ define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_SPLIT', 'Crea un profilo Cliente in 
 
 define('HEADING_RETURNING_CUSTOMER', 'Ritorni a visitarci? Inserisci i tuoi dati:');
 define('HEADING_RETURNING_CUSTOMER_SPLIT', 'Cliente registrato');
-define('TEXT_HEADING_COWOA', 'Continuare senza registrarsi');
-define('TEXT_RATHER_COWOA', 'Si desidera continuare con l`ordine senza registrare un account? Cliccare sul pulsante "Continua".<br>');
 
 define('TEXT_RETURNING_CUSTOMER_SPLIT', 'Per continuare, effettua il login al tuo account in <strong>' . STORE_NAME . '</strong>.');
 
-define('TEXT_PASSWORD_FORGOTTEN', 'Password dimenticata?');
+
 
 define('TEXT_LOGIN_ERROR', 'Errore: l\'indirizzo e-mail indicato non corrisponde alla password nel nostro archivio o viceversa. Riprova !');
 define('TEXT_VISITORS_CART', '<strong>Nota:</strong> Il contenuto del &quot;Carrello Ospite&quot; verr&agrave; travasato nel &quot;Carrello Cliente&quot; dopo che avrai effettuato il login. <a href="javascript:session_win();">[Altre Info]</a>');
@@ -29,7 +36,6 @@ define('TEXT_PRIVACY_CONDITIONS_CONFIRM', '<span class="privacyagree">Ho letto l
 define('ERROR_SECURITY_ERROR', 'C\'&egrave; stato un errore di sicurezza nel tentativo di accesso.');
 
 define('TEXT_LOGIN_BANNED', 'Errore: Accesso negato!');
-define('HEADING_AMAZON_CUSTOMER_SPLIT', 'Login with Amazon');
-define('TEXT_AMAZON_CUSTOMER_SPLIT', 'Your contact details from amazon will be used for a account at Schnullerkettenladen.de. You don´t need to fill in an application form.');
+
 define('HEADING_PAYPAL_CUSTOMER_SPLIT', 'PayPal Express Checkout');
-define('TEXT_PAYPAL_CUSTOMER_SPLIT', 'Your contact details from PayPal will be used for a account at Schnullerkettenladen.de. You don\'t need to fill in an application form.');
+define('TEXT_PAYPAL_CUSTOMER_SPLIT', 'Express Checkout con PayPal: quando vi registrate con PayPal utilizzando il pulsante PayPal Express, i vostri dati di contatto memorizzati con PayPal vengono utilizzati per un conto cliente nel nostro negozio online. Non è necessario inserire i propri dati ed effettuare il pagamento tramite PayPal.');

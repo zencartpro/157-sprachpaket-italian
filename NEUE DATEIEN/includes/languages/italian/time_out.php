@@ -1,10 +1,11 @@
 <?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * Zen Cart German Specific (158 code in 157)
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: time_out.php 3027 2006-02-13 17:15:51Z Albigin $
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: time_out.php 2023-10-29 07:49:16Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Login Time Out');
@@ -15,5 +16,3 @@ define('TEXT_INFORMATION', '<p>Se avevi inserito un ordine, per favore effettua 
 define('TEXT_INFORMATION_LOGGED_IN', 'Sei ancora abilitato con il tuo account e puoi continuare gli acquisti. Per favore scegli una destinazione da un men&ugrave;.');
 
 define('HEADING_RETURNING_CUSTOMER', 'Login');
-define('TEXT_PASSWORD_FORGOTTEN', 'Password dimenticata?')
-?>

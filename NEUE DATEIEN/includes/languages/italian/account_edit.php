@@ -1,24 +1,12 @@
 <?php
-//
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |   
-// | http://www.zen-cart.com/index.php                                    |   
-// |                                                                      |   
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-// $Id: account_edit.php 1969 2005-09-13 06:57:21Z Albigin $
-//
+/**
+ * @package languageDefines
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: account_edit.php 2015-12-22 10:05:14Z webchills $
+ */
 
 define('NAVBAR_TITLE_1', 'Il tuo account');
 define('NAVBAR_TITLE_2', 'Modifica account');
@@ -26,4 +14,3 @@ define('NAVBAR_TITLE_2', 'Modifica account');
 define('HEADING_TITLE', 'Info sul tuo account');
 
 define('SUCCESS_ACCOUNT_UPDATED', 'Il tuo account &egrave; stato aggiornato.');
-?>

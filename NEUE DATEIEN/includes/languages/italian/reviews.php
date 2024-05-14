@@ -1,6 +1,12 @@
 <?php
+/**
+ * Zen Cart German Specific (158 code in 157)
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: reviews.php 2023-10-29 16:49:16Z webchills $
+ */
+
 define('NAVBAR_TITLE', 'Recensioni');
 define('HEADING_TITLE', 'Recensioni');
-define('TEXT_OF_5_STARS', '%s di 5 stelle');
-define('TEXT_PRODUCT_INFO', '<strong>Informazioni Prodotto</strong>');
-define('TEXT_READ_REVIEW', '<strong>Leggi Recensione</strong>');

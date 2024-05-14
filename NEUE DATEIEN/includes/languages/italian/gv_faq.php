@@ -1,98 +1,62 @@
 <?php
-//
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-// $Id: gv_faq.php 1969 2005-09-13 06:57:21Z Albigin $
-//
+/** 
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: gv_faq.php 2022-04-09 12:28:14Z webchills $
+ */
 
 define('NAVBAR_TITLE', TEXT_GV_NAME . ' FAQ');
-define('HEADING_TITLE', TEXT_GV_NAME . ' FAQ - Domande Frequenti');
-
-define('TEXT_INFORMATION', '<a name="Top"></a>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Come acquistare dei ' . TEXT_GV_NAMES . '</a><br>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">Come inviare dei ' . TEXT_GV_NAMES . '</a><br>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Come spendere dei ' . TEXT_GV_NAMES . '</a><br>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Come riscuotere dei ' . TEXT_GV_NAMES . '</a><br>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">Se qualcosa non va ...</a><br>
+define('HEADING_TITLE', TEXT_GV_NAME . ' FAQ');
+define('TEXT_INFORMATION', '<a id="Top"></a>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1').'">Wie bestelle ich ' . TEXT_GV_NAMES . '</a><br>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2').'">Wie versende ich ' . TEXT_GV_NAMES . '</a><br>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3').'">Einkaufen mit ' . TEXT_GV_NAMES . '</a><br>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4').'">Einlösen von ' . TEXT_GV_NAMES . '</a><br>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5').'">Wenn Probleme auftreten</a><br>
 ');
-switch ($_GET['faq_item']) {
-  case '1':
-define('SUB_HEADING_TITLE','L\'acquisto dei ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT','I ' . TEXT_GV_NAMES . ' si comprano come qualsiasi altro prodotto venduto nel nostro negozio online. Per 
-  pagarli si possono utilizzare i sistemi di pagamento offerti dal sito.
-  Dopo l\'acquisto il valore dei ' . TEXT_GV_NAME . ' verr&agrave; accreditato sul tuo Account
-   ' . TEXT_GV_NAME . ' . Se disponi di fondi sul tuo Account ' . TEXT_GV_NAME . ' , noterai
-  che l\'ammontare ne viene indicato nel box del Carrello, dove si trova anche un
-  link ad una pagina da dove, volendo, puoi inviare ' . TEXT_GV_NAME . ' a chi credi, per e-mail.<br> Un sistema comodo e
-  sicuro per fare, ad esempio, un regalo di compleanno ad una persona lontana.');
-  break;
-  case '2':
-define('SUB_HEADING_TITLE','Inviare dei ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT','Per inviare i ' . TEXT_GV_NAME . ' occorre recarsi alla nostra Pagina Invio dei ' . TEXT_GV_NAME . ' . Troverai
-  il link a questa pagina nel Box del Carrello situato nella colonna di destra di ogni pagina.
-  Quando si inviano ' . TEXT_GV_NAME . ', occorre precisare quanto segue:<br><br>
-  - il nome della persona alla quale si inviano i ' . TEXT_GV_NAME . ' .<br>
-  - l\'indirizzo e-mail della persona alla quale si inviano i ' . TEXT_GV_NAME . ' .<br>
-  - l\'ammontare della somma che si vuole inviare. (Nota: non &egrave; necessario inviare l\'intera somma che
-  si trova sul tuo Account ' . TEXT_GV_NAME . ' ).<br>
-  - un breve messaggio, che sar&agrave; inserito nella e-mail.<br><br>
-  Assicurati che le informazioni inserite siano corrette, anche se avrai
-  la possibilit&agrave; di modificarle a tuo piacimento prima che l\'e-mail
-  venga effettivamente inviata.');
-  break;
-  case '3':
-  define('SUB_HEADING_TITLE','Acquistare con i ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT','Se disponi di fondi sul tuo Account ' . TEXT_GV_NAME . ' , puoi utilizzare tali fondi
-  per acquistare altri articoli del nostro negozio. Quando arriverai alla cassa, verr&agrave; visualizzato un box
-  speciale. Inserisci l\'ammontare da prelevare dal tuo Account ' . TEXT_GV_NAME . ' .
-  Sappi che dovrai scegliere una ulteriore modalit&agrave; di pagamento se non vi fossero
-  fondi sufficienti nel tuo Account ' . TEXT_GV_NAME . ' per coprire il costo dei tuoi acquisti.
-  Se invece alla fine delle operazioni tu avessi pi&ugrave; fondi sul tuo Account ' . TEXT_GV_NAME . ' di quanto speso 
-  per gli acquisti, il rimanente rimarr&agrave; a credito sul tuo Account ' . TEXT_GV_NAME . ' per acquisti 
-  futuri.');
-  break;
-  case '4':
-  define('SUB_HEADING_TITLE','Riscuotere dei ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT','Se ricevi ' . TEXT_GV_NAME . ' per e-mail troverai anche indicazioni su chi ti ha inviato
-  i ' . TEXT_GV_NAME . ', insieme, probabilmente, ad un breve messaggio del mittente. Nella e-mail
-  troverai anche il ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . '. Ti consigliamo di stampare questa e-mail 
-  ad ogni buon conto. A questo punto puoi riscuotere il ' . TEXT_GV_NAME . ' in
-  due modi.<br><br>
-  1. Cliccando sul link inserito nella e-mail a questo preciso scopo.
-  In tal modo verrai condotto alla pagina di riscossione dei ' . TEXT_GV_NAME . ' . Ti verr&agrave; chiesto 
-  di creare un account, quindi il ' . TEXT_GV_NAME . ' verr&agrave; convalidato e trasferito al tuo Account
-   ' . TEXT_GV_NAME . ' pronto per essere speso per l\'acquisto di qualsiasi articolo.<br><br>
-  2. Durante le fasi di acquisto, sulla stessa pagina dalla quale puoi scegliere una modalit&agrave; di pagamento
-troverai un campo nel quale inserire un ' . TEXT_GV_REDEEM . '. Inserisci il ' . TEXT_GV_REDEEM . ' dove indicato e 
-clicca il bottone di riscossione. Il codice verr&agrave;
-convalidato e aggiunto al tuo Account ' . TEXT_GV_NAME . ' . Potrai allora utilizzare quell\'ammontare per acquistare quello che vuoi nel nostro negozio');
-  break;
-  case '5':
-  define('SUB_HEADING_TITLE','Se qualcosa non va ....');
-  define('SUB_HEADING_TEXT','Per qualsiasi domanda riguardante il Sistema ' . TEXT_GV_NAME . ' , ti preghiamo di contattare il negozio
-  inviando una e-mail a '. STORE_OWNER_EMAIL_ADDRESS . '. Per favore, fornisci quanti pi&ugrave; particolari possibili in
-  questo messaggio. ');
-  break;
-  default:
-  define('SUB_HEADING_TITLE',' -- ');
-  define('SUB_HEADING_TEXT','Scegli fra le domande scritte qui sopra.');
-  }
 
-  define('TEXT_GV_REDEEM_INFO', 'Cortesemente immetti il codice riscossione ' . TEXT_GV_NAME . ': ');
-  define('TEXT_GV_REDEEM_ID', 'Codice riscossione:');
-?>
+define('SUB_HEADING_TITLE_1','Wie bestelle ich ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_1', TEXT_GV_NAMES . ' können Sie ganz normal wie andere Artikel unseres Shops bestellen. Bezahlen können Sie bei uns mit den herkömmlichen Bezahlarten.
+  Ist die Bestellung eines ' . TEXT_GV_NAME . 's abgeschlossen, wird der Wert Ihrem persönlichen
+   ' . TEXT_GV_NAME . 'konto gutgeschrieben. In Ihrem persönlichen Warenkorb erscheint der eingelöste Betrag Ihres ' . TEXT_GV_NAME . 'kontos. Zusätzlich erscheint ein Link Ihres ' . TEXT_GV_NAME . 's, den Sie dann an Freunde und Bekannte per E-Mail weiterleiten können.');
+
+define('SUB_HEADING_TITLE_2','Wie versende ich ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_2','Um einen ' . TEXT_GV_NAME . ' zu versenden, brauchen Sie nur auf unsere ' . TEXT_GV_NAME . ' - Versandseite zu gehen. Den Link hierfür finden Sie in Ihrem persönlichen Warenkorb.
+  Beim Versenden eines ' . TEXT_GV_NAME . 's müssen Sie folgende Daten angeben:<br>
+  Den <strong>Namen</strong> der Person, der Sie den ' . TEXT_GV_NAME . ' senden möchten.<br>
+  Die <strong>E-Mail Adresse</strong> der Person, der Sie den ' . TEXT_GV_NAME . ' senden möchten.<br>
+  Den <strong>Betrag</strong>, den Sie versenden möchten.<br> (HINWEIS: Sie müssen nicht den gesamten Betrag des ' . TEXT_GV_NAME . 'kontos verwenden.)<br><br>
+  Sie erhalten zusätzlich per E-Mail eine kurze Information.
+Um Fehler zu vermeiden, stellen Sie bitte sicher, dass Sie alle Daten korrekt eingegeben haben. Sie werden später zusätzlich noch einmal die Gelegenheit haben, Ihre Angaben zu überprüfen, bevor Sie den Gutschein versenden.');
+
+define('SUB_HEADING_TITLE_3','Einkaufen mit ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_3','Wenn Ihr ' . TEXT_GV_NAME . 'konto Guthaben aufweist, können Sie
+  damit andere Artikel in unserem Shop kaufen. Während des Bestellvorgangs wird ein zusätzliches Eingabefeld erscheinen.<br> Geben Sie dort bitte die Höhe des Betrages an, den Sie von Ihrem ' . TEXT_GV_NAME . 'konto abheben wollen.
+  Sollte der Bestellwert das Guthaben Ihres ' . TEXT_GV_NAME . 'kontos überschreiten, können Sie für den Differenzbetrag die gewünschte Zahlungsweise wählen.
+  Ist der Bestellwert geringer als das Guthaben Ihres ' . TEXT_GV_NAME . 'kontos, bleibt das Restguthaben Ihres ' . TEXT_GV_NAME . 'kontos natürlich für weitere Einkäufe bestehen.');
+
+define('SUB_HEADING_TITLE_4','Einlösen von ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_4','Beim Erhalt eines ' . TEXT_GV_NAME . ' per E-Mail werden Ihnen darin der Absender, der Wert des ' . TEXT_GV_NAME . 's, sowie eine kurze Nachricht des Absenders mitgeteilt. Die
+E-Mail beinhaltet auch noch den ' . TEXT_GV_NAME . ' mit dem ' . TEXT_GV_REDEEM . '. Wir empfehlen Ihnen, sich Ihren ' . TEXT_GV_NAME . ' für den späteren Gebrauch auszudrucken.<br><br><u>Sie können Ihren ' . TEXT_GV_NAME . ' nun auf
+  zwei Arten einlösen:</u><br><br>
+  1. Durch Klicken auf den mitgesendeten Link der E-Mail,
+  der Sie direkt auf die  ' . TEXT_GV_NAME . 'seite bringen wird. Damit dieser ' . TEXT_GV_NAME . ' gültig wird, müssen Sie - sofern Sie noch keines besitzen - ein Konto in unserem Shop erstellen.
+  Nach erfolgreicher Anmeldung wird Ihnen das Guthaben dieses Gutscheins auf Ihr <br><br><center><strong>persönliches ' . TEXT_GV_NAME . 'konto</strong></center><br> gutgeschrieben. Ab sofort können sie nun dieses Guthaben für Ihre Zwecke verwenden.<br><br>
+  2. Während des Bestellvorgangs können Sie auf der Seite, auf der Sie Ihre <strong>Zahlungsweise</strong> angeben, auch den ' . TEXT_GV_REDEEM . ' eingeben. Geben Sie Ihren persönlichen ' . TEXT_GV_REDEEM . ' ein und
+  klicken Sie abschließend auf "Einlösen". Nach einer kurzen Überprüfung auf Gültigkeit des einzulösenden ' . TEXT_GV_NAME . 's wird das Guthaben Ihrem persönlichen ' . TEXT_GV_NAME . 'konto gutgeschrieben.<br>Ab sofort können Sie nun den Betrag zu Ihrem Zweck verwenden.');
+
+define('SUB_HEADING_TITLE_5','Wenn Probleme auftreten.');
+define('SUB_HEADING_TEXT_5','Für Fragen zu unserem ' . TEXT_GV_NAME . ' System wenden Sie sich bitte an unseren
+Service, den Sie auf unserer <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">Kontaktseite</a> erreichen. Um Ihnen rasch helfen zu können, geben Sie hierfür bitte möglichst viele Informationen an. ');
+
+
+
+  define('SUB_HEADING_TITLE_0','');
+  define('SUB_HEADING_TEXT_0','Bitte wählen Sie Ihr Thema, zu dem Sie Fragen haben.');
+
+  
+
+define('TEXT_GV_REDEEM_INFO', 'Bitte geben Sie Ihren  ' . TEXT_GV_NAME . ' Code ein: ');
+define('TEXT_GV_REDEEM_ID', 'Gutscheincode:');

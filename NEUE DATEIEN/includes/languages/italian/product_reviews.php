@@ -1,15 +1,11 @@
 <?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * Zen Cart German Specific (158 code in 157)
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: product_reviews.php 3027 2006-02-13 17:15:51Z Albigin $
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: product_reviews.php 2023-10-29 16:55:16Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Recensioni');
-define('TEXT_OF_5_STARS', '%s di 5 Stelle');
-define('TEXT_PRODUCT_INFO', '<strong>Informazioni prodotto</strong>');
-define('TEXT_READ_REVIEW', '<strong>Leggi recensione</strong>');
-define('TEXT_ADD_YOUR_REVIEW', 'Aggiungi la tua recensione');
-?>

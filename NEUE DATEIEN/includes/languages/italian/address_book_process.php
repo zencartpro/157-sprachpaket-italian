@@ -1,10 +1,11 @@
 <?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2005 Zen Cart Development Team
+ * Zen Cart German Specific (158 code in 157)
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: address_book_process.php 2315 2005-11-07 08:41:46Z Albigin $
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: address_book_process.php 2023-10-29 16:31:16Z webchills $
  */
 
 define('NAVBAR_TITLE_1', 'Il tuo account');
@@ -19,13 +20,10 @@ define('HEADING_TITLE_MODIFY_ENTRY', 'Aggiorna annotazione nella Rubrica');
 define('HEADING_TITLE_DELETE_ENTRY', 'Cancella annotazione nella Rubrica');
 define('HEADING_TITLE', 'Dettagli Indirizzo');
 
-define('DELETE_ADDRESS_TITLE', 'Cancella ind.zzo');
+
 define('DELETE_ADDRESS_DESCRIPTION', 'Vuoi davvero cancellare l\'indirizzo selezionato dalla rubrica indirizzi?');
 
-define('NEW_ADDRESS_TITLE', 'Nuova annotazione nella Rubrica');
 
-define('SELECTED_ADDRESS', 'Indirizzo selezionato');
-define('SET_AS_PRIMARY', 'Registrare come indirizzo principale.');
 
 define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'L\'indirizzo selezionato &egrave; stato rimosso dalla tua rubrica indirizzi.');
 define('SUCCESS_ADDRESS_BOOK_ENTRY_UPDATED', 'La tua rubrica indirizzi &egrave; stata aggiornata.');

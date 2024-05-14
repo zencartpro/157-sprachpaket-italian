@@ -1,10 +1,11 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2010 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: download.php 15514 2010-02-18 07:27:05Z drbyte $
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: download.php 2012-07-06 10:25:14Z webchills $
  */
-
+ 
 define('ERROR_CUSTOMER_DOWNLOAD_FAILURE', 'Errore nel Download del Cliente');
