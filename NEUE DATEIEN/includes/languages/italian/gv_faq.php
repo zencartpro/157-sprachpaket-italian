@@ -26,7 +26,7 @@ define('SUB_HEADING_TITLE_2','Come posso inviare ' . TEXT_GV_NAMES);
 define('SUB_HEADING_TEXT_2','Per inviare un ' . TEXT_GV_NAME . ', è sufficiente fare clic sul nostro ' . TEXT_GV_NAME . ' della nostra pagina di invio. Troverà il relativo link nel suo carrello personale.
   Quando si invia un ' . TEXT_GV_NAME . ', è necessario immettere i seguenti dati:<br>
   Il <strong>nome</strong> della persona a cui si vuole inviare il ' . TEXT_GV_NAME . ' si desidera inviare.<br>
-  L\'<strong>indirizzo e-mail</strong> della persona a cui si desidera inviare il ' . TESTO_NOME_GV . ' che si desidera inviare.<br>
+  L\'<strong>indirizzo e-mail</strong> della persona a cui si desidera inviare il ' . TEXT_GV_NAME . ' che si desidera inviare.<br>
   L\'<strong>importo</strong> che si desidera inviare.<br> (NOTA: non è necessario inviare l\'intero importo del ' . TEXT_GV_NAME . 'conto.)<br><br>
   Riceverete anche una breve notifica via e-mail.
 Per evitare errori, assicuratevi di aver inserito correttamente tutti i dati. Avrete inoltre la possibilità di ricontrollare i vostri dati in un secondo momento, prima di inviare il voucher.');
