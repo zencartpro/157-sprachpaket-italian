@@ -8,6 +8,6 @@
  * @version $Id: page_not_found.php 2023-10-29 07:49:16Z webchills $
  */
 
-define('NAVBAR_TITLE', 'Oops! La pagina corrispondente a questa URL non è più disponibile su Schnullerkettenladen!');
-define('HEADING_TITLE', 'Oops! La pagina corrispondente a questa URL non è più disponibile su Schnullerkettenladen!');
+define('NAVBAR_TITLE', 'ERRORE 404 - Pagina non trovata');
+define('HEADING_TITLE', 'ERRORE 404 - Pagina non trovata');
 define('TEXT_INFORMATION', '');
