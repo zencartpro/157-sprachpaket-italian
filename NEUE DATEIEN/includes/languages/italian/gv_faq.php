@@ -1,62 +1,57 @@
 <?php
 /** 
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: gv_faq.php 2022-04-09 12:28:14Z webchills $
+ * @version $Id: gv_faq.php 2024-05-14 19:28:14Z webchills $
  */
 
 define('NAVBAR_TITLE', TEXT_GV_NAME . ' FAQ');
 define('HEADING_TITLE', TEXT_GV_NAME . ' FAQ');
 define('TEXT_INFORMATION', '<a id="Top"></a>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1').'">Wie bestelle ich ' . TEXT_GV_NAMES . '</a><br>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2').'">Wie versende ich ' . TEXT_GV_NAMES . '</a><br>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3').'">Einkaufen mit ' . TEXT_GV_NAMES . '</a><br>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4').'">Einlösen von ' . TEXT_GV_NAMES . '</a><br>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5').'">Wenn Probleme auftreten</a><br>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1').'">Come posso ordinare ' . TEXT_GV_NAMES . '</a><br>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2').'">Come si invia ' . TEXT_GV_NAMES . '</a><br>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3').'">Comprare con ' . TEXT_GV_NAMES . '</a><br>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4').'">Riscatto di ' . TEXT_GV_NAMES . '</a><br>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5').'">Quando si verificano problemi</a><br>
 ');
 
-define('SUB_HEADING_TITLE_1','Wie bestelle ich ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT_1', TEXT_GV_NAMES . ' können Sie ganz normal wie andere Artikel unseres Shops bestellen. Bezahlen können Sie bei uns mit den herkömmlichen Bezahlarten.
-  Ist die Bestellung eines ' . TEXT_GV_NAME . 's abgeschlossen, wird der Wert Ihrem persönlichen
-   ' . TEXT_GV_NAME . 'konto gutgeschrieben. In Ihrem persönlichen Warenkorb erscheint der eingelöste Betrag Ihres ' . TEXT_GV_NAME . 'kontos. Zusätzlich erscheint ein Link Ihres ' . TEXT_GV_NAME . 's, den Sie dann an Freunde und Bekannte per E-Mail weiterleiten können.');
+define('SUB_HEADING_TITLE_1','Come ordinare ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_1', TEXT_GV_NAMES . ' possono essere ordinati come gli altri articoli del nostro negozio. Ãˆ possibile pagare con le consuete modalitÃ  di pagamento.
+  Se l\'ordine di un ' . TEXT_GV_NAME . 's viene completato, il valore verrÃ  aggiunto al vostro conto personale
+   ' . TEXT_GV_NAME . 'conto viene accreditato. L\'importo riscattato del vostro ' . TEXT_GV_NAME . 'del conto. Inoltre, un link al vostro ' . TEXT_GV_NAME . 's, che potrete poi inoltrare ad amici e conoscenti via e-mail.');
 
-define('SUB_HEADING_TITLE_2','Wie versende ich ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT_2','Um einen ' . TEXT_GV_NAME . ' zu versenden, brauchen Sie nur auf unsere ' . TEXT_GV_NAME . ' - Versandseite zu gehen. Den Link hierfür finden Sie in Ihrem persönlichen Warenkorb.
-  Beim Versenden eines ' . TEXT_GV_NAME . 's müssen Sie folgende Daten angeben:<br>
-  Den <strong>Namen</strong> der Person, der Sie den ' . TEXT_GV_NAME . ' senden möchten.<br>
-  Die <strong>E-Mail Adresse</strong> der Person, der Sie den ' . TEXT_GV_NAME . ' senden möchten.<br>
-  Den <strong>Betrag</strong>, den Sie versenden möchten.<br> (HINWEIS: Sie müssen nicht den gesamten Betrag des ' . TEXT_GV_NAME . 'kontos verwenden.)<br><br>
-  Sie erhalten zusätzlich per E-Mail eine kurze Information.
-Um Fehler zu vermeiden, stellen Sie bitte sicher, dass Sie alle Daten korrekt eingegeben haben. Sie werden später zusätzlich noch einmal die Gelegenheit haben, Ihre Angaben zu überprüfen, bevor Sie den Gutschein versenden.');
+define('SUB_HEADING_TITLE_2','Come posso inviare ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_2','Per inviare un ' . TEXT_GV_NAME . ', Ã¨ sufficiente fare clic sul nostro ' . TEXT_GV_NAME . ' della nostra pagina di invio. TroverÃ  il relativo link nel suo carrello personale.
+  Quando si invia un ' . TEXT_GV_NAME . ', Ã¨ necessario immettere i seguenti dati:<br>
+  Il <strong>nome</strong> della persona a cui si vuole inviare il ' . TEXT_GV_NAME . ' si desidera inviare.<br>
+  L\'<strong>indirizzo e-mail</strong> della persona a cui si desidera inviare il ' . TESTO_NOME_GV . ' che si desidera inviare.<br>
+  L\'<strong>importo</strong> che si desidera inviare.<br> (NOTA: non Ã¨ necessario inviare l\'intero importo del ' . TEXT_GV_NAME . 'conto.)<br><br>
+  Riceverete anche una breve notifica via e-mail.
+Per evitare errori, assicuratevi di aver inserito correttamente tutti i dati. Avrete inoltre la possibilitÃ  di ricontrollare i vostri dati in un secondo momento, prima di inviare il voucher.');
 
-define('SUB_HEADING_TITLE_3','Einkaufen mit ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT_3','Wenn Ihr ' . TEXT_GV_NAME . 'konto Guthaben aufweist, können Sie
-  damit andere Artikel in unserem Shop kaufen. Während des Bestellvorgangs wird ein zusätzliches Eingabefeld erscheinen.<br> Geben Sie dort bitte die Höhe des Betrages an, den Sie von Ihrem ' . TEXT_GV_NAME . 'konto abheben wollen.
-  Sollte der Bestellwert das Guthaben Ihres ' . TEXT_GV_NAME . 'kontos überschreiten, können Sie für den Differenzbetrag die gewünschte Zahlungsweise wählen.
-  Ist der Bestellwert geringer als das Guthaben Ihres ' . TEXT_GV_NAME . 'kontos, bleibt das Restguthaben Ihres ' . TEXT_GV_NAME . 'kontos natürlich für weitere Einkäufe bestehen.');
+define('SUB_HEADING_TITLE_3','Shopping con ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_3','Se il vostro ' . TEXT_GV_NAME . 'il vostro conto ha del credito, potete usarlo per
+  per acquistare altri articoli nel nostro negozio. Durante il processo di ordinazione, apparirÃ  un campo di immissione aggiuntivo.<br> Si prega di inserire la somma di denaro che si desidera prelevare dal proprio ' . TEXT_GV_NAME . 'conto che si desidera prelevare.
+  Se il valore dell\'ordine supera il saldo del conto ' . TEXT_GV_NAME . 'conto, Ã¨ possibile selezionare il metodo di pagamento desiderato per la differenza.
+  Se il valore dell\'ordine Ã¨ inferiore al saldo del conto ' . TEXT_GV_NAME . 'conto, il saldo rimanente del vostro ' . TEXT_GV_NAME . 'conto rimarrÃ  ovviamente per ulteriori acquisti');
 
-define('SUB_HEADING_TITLE_4','Einlösen von ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT_4','Beim Erhalt eines ' . TEXT_GV_NAME . ' per E-Mail werden Ihnen darin der Absender, der Wert des ' . TEXT_GV_NAME . 's, sowie eine kurze Nachricht des Absenders mitgeteilt. Die
-E-Mail beinhaltet auch noch den ' . TEXT_GV_NAME . ' mit dem ' . TEXT_GV_REDEEM . '. Wir empfehlen Ihnen, sich Ihren ' . TEXT_GV_NAME . ' für den späteren Gebrauch auszudrucken.<br><br><u>Sie können Ihren ' . TEXT_GV_NAME . ' nun auf
-  zwei Arten einlösen:</u><br><br>
-  1. Durch Klicken auf den mitgesendeten Link der E-Mail,
-  der Sie direkt auf die  ' . TEXT_GV_NAME . 'seite bringen wird. Damit dieser ' . TEXT_GV_NAME . ' gültig wird, müssen Sie - sofern Sie noch keines besitzen - ein Konto in unserem Shop erstellen.
-  Nach erfolgreicher Anmeldung wird Ihnen das Guthaben dieses Gutscheins auf Ihr <br><br><center><strong>persönliches ' . TEXT_GV_NAME . 'konto</strong></center><br> gutgeschrieben. Ab sofort können sie nun dieses Guthaben für Ihre Zwecke verwenden.<br><br>
-  2. Während des Bestellvorgangs können Sie auf der Seite, auf der Sie Ihre <strong>Zahlungsweise</strong> angeben, auch den ' . TEXT_GV_REDEEM . ' eingeben. Geben Sie Ihren persönlichen ' . TEXT_GV_REDEEM . ' ein und
-  klicken Sie abschließend auf "Einlösen". Nach einer kurzen Überprüfung auf Gültigkeit des einzulösenden ' . TEXT_GV_NAME . 's wird das Guthaben Ihrem persönlichen ' . TEXT_GV_NAME . 'konto gutgeschrieben.<br>Ab sofort können Sie nun den Betrag zu Ihrem Zweck verwenden.');
+define('SUB_HEADING_TITLE_4','Riscatto' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_4','Quando si riceve un ' . TEXT_GV_NAME . ' via e-mail, il mittente, il valore del ' . TEXT_GV_NAME . ', oltre a un breve messaggio del mittente. Il messaggio
+e-mail contiene anche il ' . TEXT_GV_NAME . ' con il simbolo ' . TEXT_GV_REDEEM . ' Si consiglia di visionare il proprio ' . TEXT_GV_NAME . '<br><br><u>Ãˆ possibile stampare il proprio ' . TEXT_GV_NAME . ' in due modi
+  due modi:</u><br><br>
+  1. cliccando sul link inviato con l\'e-mail,
+  che vi porterÃ  direttamente alla pagina ' . TEXT_GV_NAME . '. In modo che questo ' . TEXT_GV_NAME . ' sia valido, Ã¨ necessario creare un account nel nostro negozio - se non ne avete giÃ  uno.
+  Una volta effettuata la registrazione, il saldo di questo buono verrÃ  accreditato sul vostro <br><br><center><strong>nome personale ' . TEXT_GV_NAME . 'conto</strong></center><br> sarÃ  accreditato. Ora Ã¨ possibile utilizzare questo credito per i propri scopi.<br><br>
+  2. durante il processo d\'ordine, nella pagina in cui si specifica il <strong>metodo di pagamento</strong>, Ã¨ possibile selezionare anche l\'opzione ' . TEXT_GV_REDEEM . ' nella pagina in cui si inserisce il metodo di pagamento. Inserite il vostro ' . TEXT_GV_REDEEM . ' e
+  quindi cliccare su "Riscatta". Dopo un breve controllo della validitÃ  del ' . TEXT_GV_NAME . ' da riscattare, il credito verrÃ  aggiunto al vostro ' . TEXT_GV_NAME . ' D\'ora in poi potrÃ  utilizzare l\'importo per i suoi scopi.');
 
-define('SUB_HEADING_TITLE_5','Wenn Probleme auftreten.');
-define('SUB_HEADING_TEXT_5','Für Fragen zu unserem ' . TEXT_GV_NAME . ' System wenden Sie sich bitte an unseren
-Service, den Sie auf unserer <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">Kontaktseite</a> erreichen. Um Ihnen rasch helfen zu können, geben Sie hierfür bitte möglichst viele Informationen an. ');
+define('SUB_HEADING_TITLE_5','Se si verificano problemi.');
+define('SUB_HEADING_TEXT_5','Per domande sul nostro ' . TEXT_GV_NAME . ', si prega di contattare il nostro
+Servizio Assistenza, che potete trovare nella nostra <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">pagina dei contatti</a>. Per potervi aiutare rapidamente, vi preghiamo di fornire il maggior numero di informazioni possibile. ');
 
-
-
-  define('SUB_HEADING_TITLE_0','');
-  define('SUB_HEADING_TEXT_0','Bitte wählen Sie Ihr Thema, zu dem Sie Fragen haben.');
-
-  
-
-define('TEXT_GV_REDEEM_INFO', 'Bitte geben Sie Ihren  ' . TEXT_GV_NAME . ' Code ein: ');
-define('TEXT_GV_REDEEM_ID', 'Gutscheincode:');
+define('SUB_HEADING_TITLE_0','');
+define('SUB_HEADING_TEXT_0','Selezionare l\'argomento su cui si hanno domande');
+define('TEXT_GV_REDEEM_INFO', 'Inserire il proprio ' . TEXT_GV_NAME . ' codice: ');
+define('TEXT_GV_REDEEM_ID', 'Codice del buono:');
