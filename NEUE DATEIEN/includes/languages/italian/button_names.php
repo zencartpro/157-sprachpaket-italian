@@ -5,7 +5,7 @@
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: button_names.php 2024-05-14 18:45:14Z webchills $
+ * @version $Id: button_names.php 2024-05-14 19:45:14Z webchills $
  */
 
 /**
@@ -103,7 +103,7 @@ define('BUTTON_SHIPPING_ESTIMATOR_ALT', 'Costi spedizione');
 define('BUTTON_SOLD_OUT_ALT', 'Esaurito');
 define('BUTTON_SOLD_OUT_SMALL_ALT', 'Esaurito');
 define('BUTTON_SUBMIT_ALT', 'Absenden');
-define('BUTTON_SUBMIT_ALT', 'Invio');
+define('BUTTON_SUBMIT_GO_ALT', 'Invio');
 define('BUTTON_UNSUBSCRIBE', 'Rimuovi Iscrizione');
 define('BUTTON_UPDATE_ALT', 'Aggiorna');
 

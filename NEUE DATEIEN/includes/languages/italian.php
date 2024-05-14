@@ -6,7 +6,7 @@
 * Zen Cart German Version - www.zen-cart-pro.at
 * @copyright Portions Copyright 2003 osCommerce
 * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: italian.php 2024-05-14 18:42:57Z webchills $
+ * @version $Id: italian.php 2024-05-14 19:53:57Z webchills $
  */
 // -----
 // Since the languages are now loaded via classes, the $locales definition
@@ -48,7 +48,7 @@ define('BOX_HEADING_FEATURED_PRODUCTS','Articoli consigliati');
 define('BOX_HEADING_INFORMATION','Informazioni');
 define('BOX_HEADING_LANGUAGES','Lingue');
 define('BOX_HEADING_LINKS', ' [more]');
-define('BOX_HEADING_MANIFATTURIERI','Produttori');
+define('BOX_HEADING_MANUFACTURERS','Produttori');
 define('BOX_HEADING_MANUFACTURER_INFO', 'Informazioni sul produttore');
 define('BOX_HEADING_MORE_INFORMATION', 'Ulteriori informazioni');
 define('BOX_HEADING_NOTIFICATIONS','Notifiche');
@@ -59,9 +59,9 @@ define('BOX_HEADING_SPECIALS','Offerte speciali');
 define('BOX_HEADING_WHATS_NEW','Nuovi articoli');
 define('BOX_INFORMATION_ABOUT_US','Informazioni su di noi');
 define('BOX_INFORMATION_CONDITIONS','Termini e condizioni');
-define('BOX_INFORMATION_WITHDRAWAL_RIGHT','Diritto di recesso');
+define('BOX_INFORMATION_WIDERRUFSRECHT','Diritto di recesso');
 define('BOX_INFORMATION_ZAHLUNGSARTEN', 'Metodi di pagamento');
-define('BOX_INFORMATION_IMPRINT', 'Impronta');
+define('BOX_INFORMATION_IMPRESSUM', 'Impronta');
 define('BOX_INFORMATION_CONTACT','Contatto');
 define('BOX_INFORMATION_DISCOUNT_COUPONS','Buoni promozionali');
 define('BOX_INFORMATION_ORDER_STATUS','Stato dell\'ordine');
@@ -134,21 +134,21 @@ define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Il vostro indirizzo e-mail è già r
 define('ENTRY_EMAIL_ADDRESS_TEXT','*');
 define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','Ha dimenticato il suo messaggio? Vorremmo avere sue notizie. Potete inserire i vostri commenti nel campo di testo sottostante.');
 define('ENTRY_EMAIL_HTML_DISPLAY','HTML');
-define('ENTRY_EMAIL_NAME_CHECK_ERROR','Scusi, il suo nome è corretto? Il nostro sistema richiede un minimo di ' . NOME_INGRESSO_MIN_LUNGHEZZA . ' caratteri. Si prega di riprovare.');
+define('ENTRY_EMAIL_NAME_CHECK_ERROR','Scusi, il suo nome è corretto? Il nostro sistema richiede un minimo di ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' caratteri. Si prega di riprovare.');
 define('ENTRY_EMAIL_PREFERENCE','Newsletter e formato e-mail'); 
 define('ENTRY_EMAIL_TEXT_DISPLAY','Solo testo');
 define('ENTRY_ENQUIRY','Messaggio:');
 define('ENTRY_FAX_NUMBER','Numero di fax:');
 define('ENTRY_FAX_NUMBER_TEXT','');
 define('ENTRY_FIRST_NAME','Nome:');
-define('ENTRY_FIRST_NAME_ERROR','Il nome è corretto? Il nostro sistema richiede un minimo di ' . NOME_DELLA_VOCE_MIN_LUNGHEZZA . ' caratteri. Si prega di riprovare.');
+define('ENTRY_FIRST_NAME_ERROR','Il nome è corretto? Il nostro sistema richiede un minimo di ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' caratteri. Si prega di riprovare.');
 define('ENTRY_FIRST_NAME_TEXT','*');
 define('ENTRY_GENDER','Saluto:');
 define('ENTRY_GENDER_ERROR','Scegliere un saluto');
 define('ENTRY_GENDER_TEXT','*');
 define('ENTRY_INCLUDE_SUBCATEGORIES','Includere le sottocategorie');
 define('ENTRY_LAST_NAME','Cognome:');
-define('ENTRY_LAST_NAME_ERROR','Il cognome è corretto? Il nostro sistema richiede un minimo di ' . NOME_DELLA_VOCE_MIN_LUNGHEZZA . ' caratteri. Si prega di riprovare.');
+define('ENTRY_LAST_NAME_ERROR','Il cognome è corretto? Il nostro sistema richiede un minimo di ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caratteri. Si prega di riprovare.');
 define('ENTRY_LAST_NAME_TEXT','*');
 define('ENTRY_NAME','Nome completo:');
 define('ENTRY_NEWSLETTER','Iscriviti alla nostra newsletter');
@@ -176,7 +176,7 @@ define('ENTRY_PRICE_TO','Prezzo a:');
 define('ENTRY_RECIPIENT_NAME','Nome del destinatario:');
 define('ENTRY_REQUIRED_SYMBOL','*');
 define('ENTRY_STATE','Stato:');
-define('ENTRY_STATE_ERROR','Lo stato deve essere almeno ' . STATO_INGRESSO_MIN_LUNGHEZZA . ' caratteri.');
+define('ENTRY_STATE_ERROR','Lo stato deve essere almeno ' . ENTRY_STATE_MIN_LENGTH . ' caratteri.');
 define('ENTRY_STATE_ERROR_SELECT','Selezionare uno stato dal menu a discesa Stati.');
 define('ENTRY_STATE_TEXT','*');
 define('ENTRY_STREET_ADDRESS','Via e numero civico:');
@@ -186,7 +186,7 @@ define('ENTRY_SUBURB','Indirizzo riga 2:');
 define('ENTRY_SUBURB_TEXT','');
 define('ENTRY_TELEPHONE','Numero di telefono:');
 define('ENTRY_TELEPHONE_NUMBER','Numero di telefono:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR','Il numero di telefono deve essere almeno ' . LUNGHEZZA_MINIMA_DI_VOCE_TELEFONO . ' caratteri');
+define('ENTRY_TELEPHONE_NUMBER_ERROR','Il numero di telefono deve essere almeno ' . ENTRY_TELEPHONE_MIN_LENGTH . ' caratteri');
 define('ENTRY_TELEPHONE_NUMBER_TEXT','*');
 define('ERROR_AT_LEAST_ONE_INPUT','Deve essere inserito almeno uno dei campi del modulo di ricerca');
 define('ERROR_CART_UPDATE','<strong>Per favore aggiorna il tuo ordine.</strong> ');
@@ -250,7 +250,7 @@ define('HTML_PARAMS','dir="ltr" lang="it"');
 define('ICON_ERROR_ALT','Errore');
 define('ICON_IMAGE_ERROR','error.png');
 define('ICON_IMAGE_SUCCESS','success.png');
-definire('ICON_IMAGE_TINYCART','cart.gif');
+define('ICON_IMAGE_TINYCART','cart.gif');
 define('ICON_IMAGE_TRASH','small_delete.png');
 define('ICON_IMAGE_UPDATE','button_update_cart.png');
 define('ICON_IMAGE_WARNING','warning.png');
@@ -337,7 +337,7 @@ define('PRODUCT_PRICE_SALE', 'Ora solo ');
 define('PULL_DOWN_ALL','Selezionare');
 define('PULL_DOWN_ALL_RESET','- Reset - ');
 define('PULL_DOWN_DEFAULT','Selezionare il paese');
-define('PULL_DOWN_MANIFATTURIERI','- Reset -');
+define('PULL_DOWN_MANUFACTURERS','- Reset -');
 define('PULL_DOWN_SHIPPING_ESTIMATOR_SELECT','Selezionare');
 define('SEND_TO_TEXT','Invia e-mail a:');
 define('SET_AS_PRIMARY', 'Usa come indirizzo predefinito');
@@ -432,7 +432,7 @@ define('TEXT_EZPAGES_STATUS_SIDEBOX_ADMIN','WARNING: EZ-PAGES SIDEBOX - Attivato
 define('TEXT_FIELD_REQUIRED','&nbsp;<span class="alert">*</span>');
 define('TEXT_FILESIZE_BYTES','bytes');
 define('TEXT_FILESIZE_KBS','KB');
-definire('TEXT_FILESIZE_MEGS','MB');
+define('TEXT_FILESIZE_MEGS','MB');
 define('TEXT_FILESIZE_UNKNOWN','Unknown');
 define('TEXT_FOOTER_DISCOUNT_QUANTITIES', '* Gli sconti possono variare in base alle opzioni sottostanti');
 define('TEXT_GV_NAME','Buono regalo');
@@ -537,7 +537,7 @@ define('WARNING_COULD_NOT_LOCATE_LANG_FILE','WARNING: Il file della lingua non �
 define('WARNING_NO_FILE_UPLOADED','Attenzione: nessun file caricato.');
 define('WARNING_PRODUCT_QUANTITY_ADJUSTED','La quantità è stata adattata al livello di stock. ');
 define('WARNING_SHOPPING_CART_COMBINED', 'NOTA: il carrello attuale è stato unito a quello dell\'ultima visita. Si prega di controllare il contenuto del carrello prima di concludere l\'ordine.');
-// Definizioni che richiedono riferimenti ad altre definizioni
+// Definitions that require references to other definitions
 define('ATTRIBUTES_QTY_PRICE_SYMBOL', zen_image(DIR_WS_TEMPLATE_ICONS . 'icon_status_green.gif', TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK, 10, 10) . '&nbsp;'); 
 define('BOX_HEADING_GIFT_VOUCHER', TEXT_GV_NAME . ' Konto'); 
 define('BOX_INFORMATION_GV', TEXT_GV_NAME . ' FAQ'); 
