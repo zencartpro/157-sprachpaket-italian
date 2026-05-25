@@ -13,4 +13,4 @@ define('TEXT_FILE_DOES_NOT_EXIST', 'Die Datei existiert nicht: %s');
 define('ERROR_FILE_NOT_WRITEABLE', 'FEHLER: In die Datei kann nicht geschrieben werden. Bitte ändern Sie die Berechtigung von: %s');
 define('TEXT_INFO_SELECT_FILE', 'Wählen Sie eine Seite zum Bearbeiten aus ...');
 define('TEXT_INFO_EDITING', 'Editiere Datei:');
-define('TEXT_INFO_CAUTION','HINWEIS: Sie sollten immer nur die Dateien Ihres aktuellen Templates bearbeiten, z.B.: /languages/' . $_SESSION['language'] . '/html_includes/DEINTEMPLATE<br>Nach den Änderungen sollten Sie eine Sicherung Ihrer Dateien erstellen.');
+define('TEXT_INFO_CAUTION','HINWEIS: Sie sollten immer nur die Dateien Ihres aktuellen Templates bearbeiten, z.B.: /languages/' . $_SESSION['language'] . '/html_includes/DEINTEMPLATE<br />Nach den Änderungen sollten Sie eine Sicherung Ihrer Dateien erstellen.');
